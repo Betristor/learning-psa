@@ -1,0 +1,6 @@
+# OS specific files
+.DS_store
+
+# examples for atlite
+*/*.ipynb
+
