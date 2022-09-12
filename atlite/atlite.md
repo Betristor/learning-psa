@@ -13,3 +13,10 @@ After a nc file is retrieved, then call ```cutout.prepare()``` to process the da
 Typically wind speed and solar radiation will be stored in the cutout variable and different functions could be called to calculate needed data such as available factors, combined with capabilities offered by other data sources (most convenient way by powerplantmatching tool from pypsa), the generation power could be obtained thus important data in modern power system analysis which is performance of renewables is obtained.
 
 Current modules are developed for different types of wind turbines and solar panels. Hydro and heat pump are also in development butare much simpler.
+
+## learning materials
+Atlite on GitHub: https://github.com/PyPSA/atlite
+
+Atlite documentation: https://atlite.readthedocs.io/
+
+Waiting for implementation!
