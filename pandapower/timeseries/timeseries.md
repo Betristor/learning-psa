@@ -1,0 +1,4 @@
+## Timeseries calculation
+pandapower is dedicated for power flow calculation based on pypsa and the data structure is dedicated designed with dataframes which is adopted from pandas package.
+
+The logic behind the data structure is based on pandas dataframe so it could be imported or exported as pandas dataframe easily. other file formats are easily available due to pandas including csv, xlsx, json, etc. But one thing that should be carefully dealt with is that in csv file format, the delimiter is semicolon instead of comma. This should be paid attention to when dealing with outputs after calculation.
