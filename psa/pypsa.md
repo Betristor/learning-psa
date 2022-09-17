@@ -1,4 +1,5 @@
 ## PyPSA
+Python for Power System Analysis (PyPSA) is a free software toolbox for simulating and optimising modern electrical power systems over multiple periods.
 
 ## Functionality (from website)
 PyPSA can calculate:
