@@ -78,7 +78,7 @@ try:
     df = df[df["LMP_TYPE"] == "LMP"]
 
     df = df.sort_values("INTERVALSTARTTIME_GMT")
-    df.reset_index()
+    df = df.reset_index(drop=True)
     file_name = start_time + "_LMP.csv"
 
     df.to_csv(file_name)
